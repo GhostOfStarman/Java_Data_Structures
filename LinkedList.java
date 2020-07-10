@@ -44,16 +44,7 @@ public class LinkedList {
 		
 		//Create a new LinkedList object and establish the front node to be head from above
 		LinkedList list1 = new LinkedList();
-		list1.front = head;
-		
-		
-		list1.deleteAt(5);
-
-
-		
-		list1.printVals();
-
-		
+		list1.front = head;		
 //----------------------------------------------------------------------
 		//NOTE when creating a temp variable: 
 		//As head changes, temp will change just the same,
